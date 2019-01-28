@@ -23,3 +23,15 @@ or simpler:
 ```bash
 zgrep "thing" file_starts_with*
 ```
+
+----
+Search multiple files for `magic`:
+```bash
+grep "magic" file1.txt file2.txt
+```
+
+___
+Search for lines with `magic` and `potter`:
+```bash
+grep "magic" file1.txt | grep "potter"
+```
